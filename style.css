@@ -1,0 +1,85 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: #F6F9FC;
+}
+
+h1  {
+  color: #6ab47e;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2  {
+  color: #519ab1;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+h3  {
+  color: #0c252d;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #375862;
+  font-size: 14px;
+}
+
+a {
+  color: #cbb824;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #958824;
+}
+
+.icon {
+  opacity: 0.6;
+  font-size: 60px;
+  transition: top 0.3s, opacity 0.4s;
+
+}
+.icon:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 650px;
+  margin: 70px auto;
+}
+
+.white-card {
+  transition: transform 0.2s ease-in-out;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 25px 0px;
+  padding: 30px;
+  text-align: center;
+}
+
+.white-card:hover {
+  transform: scale(1.015)
+}
+
+#profile {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 10px 0px;
+  padding: 50px;
+  text-align: left;
+  line-height: 1.8;
+}
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
